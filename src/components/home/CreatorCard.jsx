@@ -5,7 +5,7 @@ import {
   useTransform,
   AnimatePresence,
 } from "framer-motion";
-import { Star, Heart, Users, Play } from "lucide-react";
+import { Heart, Users, Play } from "lucide-react";
 
 const CreatorCard = ({ creator }) => {
   const [isHovered, setIsHovered] = useState(false);

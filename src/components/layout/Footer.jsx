@@ -25,10 +25,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Youtube, href: "#", label: "YouTube" },
+    { icon: Twitter, href: "", label: "Twitter" },
+    { icon: Instagram, href: "", label: "Instagram" },
+    { icon: Linkedin, href: "", label: "LinkedIn" },
+    { icon: Youtube, href: "", label: "YouTube" },
   ];
 
   return (
@@ -53,7 +53,7 @@ const Footer = () => {
               {socialLinks.map((social, index) => (
                 <motion.a
                   key={index}
-                  href={social.href}
+                  // href={social.href}
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                   className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors"

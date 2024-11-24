@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, Sliders, X, ChevronDown } from "lucide-react";
+import { Search, Sliders, ChevronDown } from "lucide-react";
 
 const AdvancedSearch = () => {
   const [isOpen, setIsOpen] = useState(false);
